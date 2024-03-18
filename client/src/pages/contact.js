@@ -1,9 +1,13 @@
 import { useState } from 'react'
+import NavBar from '../components/NavBar'
 
 const Contact = () => {
 
   return (
-    <h1>Contact</h1>
+    <>
+      <h1>Contact</h1>
+      <NavBar />
+    </>
   )
 }
 

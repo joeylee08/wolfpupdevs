@@ -1,5 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/home';
+import About from './pages/about';
+import Process from './pages/process';
+import Contact from './pages/contact';
+import Error from './pages/error';
+
 
 function App() {
 
@@ -14,12 +20,10 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
       <Routes>
         {routes}
         <Route path="/:error" element={<Error />} />
       </Routes>
-    </BrowserRouter>
     </>
   )
 }
