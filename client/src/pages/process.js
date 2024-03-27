@@ -2,6 +2,7 @@ import { useState } from 'react'
 import NavBar from '../components/NavBar'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
+import pocketbone from '../images/pocketbone.jpg'
 
 const Process = () => {
 

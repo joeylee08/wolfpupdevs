@@ -18,6 +18,7 @@ h1 {
 p {
   font-size: 1.2rem;
   margin-bottom: 1.4rem;
+  line-height: 1.5rem;
 }
 
 .navbar {
@@ -67,8 +68,16 @@ p {
   width: 85%;
   margin: auto;
   margin-top: 0.4rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.5rem;
   border-radius: 10px;
+}
+
+.image {
+  width: 340px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #080808;
 }
 
 .contactForm {
@@ -84,12 +93,14 @@ label {
 #email {
   height: 1.4rem;
   border-radius: 5px;
+  border: 1px solid #080808;
 }
 
 #notes {
   height: 120px;
   border-radius: 5px;
   margin-bottom: 0.5rem;
+  border: 1px solid #080808;
 }
 
 #submit {
@@ -109,7 +120,8 @@ label {
 }
 
 #footerText {
-  font-size: 1rem;
+  font-size: 1.7rem;
+  font-family: "Cedarville Cursive", "cursive";
   color: white;
   margin: auto;
 }
