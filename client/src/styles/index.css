@@ -4,10 +4,26 @@
   font-style: normal;
 }
 
+body {
+  background-color: white;
+  margin: 0px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: red;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
 .navbar {
   width: 100%;
   height: 100px;
-  border: 2px solid red;
+  background-color: #080808;
   margin: 0px;
   display: flex;
   justify-content: center;
@@ -28,17 +44,72 @@
 
 .linksList li a {
   text-decoration: none;
+  color: white;
 }
 
 #bannerbox {
+  background-color: #3a3a3a;
   display: flex;
+  align-items: center;
   justify-content: center;
-  border: 2px solid green;
+  height: 300px;
+  width: 100%;
 }
 
 #banner {
+  max-width: 850px;
+  min-width: 850px;
+}
+
+.content {
+  background-color: white;
+  padding: 2rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 0.4rem;
+  margin-bottom: 1.8rem;
+  border-radius: 10px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+label {
+  margin-bottom: 0.4rem;
+}
+
+#email {
+  height: 1.4rem;
+  border-radius: 5px;
+}
+
+#notes {
+  height: 120px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+#submit {
+  font-size: 1.1rem;
+  height: 2.2rem;
+  width: 8rem;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+
+.footer {
+  display: flex;
   width: 100%;
-  max-height: 342px;
-  max-width: 1018px;
-  border: 2px solid blue;
+  height: 200px;
+  background-color: #3a3a3a;
+}
+
+#footerText {
+  font-size: 1rem;
+  color: white;
+  margin: auto;
 }
