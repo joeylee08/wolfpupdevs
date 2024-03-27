@@ -1,0 +1,127 @@
+* {
+  font-family: "Encode Sans Expanded", "Nanum Gothic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: red;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+  line-height: 1.5rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #080808;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.linksList li {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.linksList li a {
+  text-decoration: none;
+  color: white;
+}
+
+#bannerbox {
+  background-color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+
+#banner {
+  max-width: 850px;
+  min-width: 850px;
+}
+
+.content {
+  background-color: white;
+  padding: 2rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.image {
+  width: 340px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #080808;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+label {
+  margin-bottom: 0.4rem;
+}
+
+#email {
+  height: 1.4rem;
+  border-radius: 5px;
+  border: 1px solid #080808;
+}
+
+#notes {
+  height: 120px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #080808;
+}
+
+#submit {
+  font-size: 1.1rem;
+  height: 2.2rem;
+  width: 8rem;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: #3a3a3a;
+}
+
+#footerText {
+  font-size: 1.7rem;
+  font-family: "Cedarville Cursive", "cursive";
+  color: white;
+  margin: auto;
+}
