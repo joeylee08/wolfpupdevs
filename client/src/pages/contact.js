@@ -12,18 +12,19 @@ const Contact = () => {
       <NavBar />
       <div className='content'>
         <img 
-            className='image'
-            src={pocketbone}
-            alt='pocket sleeping with bone'
+          className='image'
+          src={pocketbone}
+          alt='pocket sleeping with bone'
         />
-        <h1>Contact our team today.</h1>
-        <p>Please do not hesitate to reach out to our team with as much or as little detail as you feel comfortable sharing. We will generally get back to you within 24 hours. Thank you.</p>
-        <div className='formBox'>
+        <div id='contactBox'>
+          <h1>Contact Us Today</h1>
+          <p>Please do not hesitate to reach out to our team and schedule your complimentary 20-minute consultation. We will get back to you within 24 hours. Thank you.</p>
+          <br/>
           <form className='contactForm'>
             <label htmlFor='email'>Email: </label>
             <input id='email' type='text'></input>
             <br/>
-            <label htmlFor='notes'>Notes: </label>
+            <label htmlFor='notes'>Tell us a little about your project: </label>
             <textarea id='notes' type='text'></textarea>
             <br/>
             <button id='submit' type='submit'>SUBMIT</button>
