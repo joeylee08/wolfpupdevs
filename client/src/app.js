@@ -6,7 +6,6 @@ import Process from './pages/process';
 import Contact from './pages/contact';
 import Error from './pages/error';
 
-
 function App() {
 
   const routes = (
