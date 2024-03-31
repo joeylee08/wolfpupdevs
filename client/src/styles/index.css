@@ -53,6 +53,10 @@ p {
   color: white;
 }
 
+.selected {
+  text-decoration: underline;
+}
+
 #bannerbox {
   background-color: #3a3a3a;
   display: flex;
@@ -149,4 +153,8 @@ label {
   font-family: "Cedarville Cursive", "cursive";
   color: white;
   margin: auto;
+}
+
+.page {
+  transition: cubic-bezier(1, 0, 0, 1); 
 }
