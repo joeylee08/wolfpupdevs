@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { useFormik } from 'formik'
-import * as yup from 'yup'
+// import { useFormik } from 'formik'
+// import * as yup from 'yup'
 import NavBar from '../components/NavBar'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
@@ -8,21 +8,21 @@ import pocketbone from '../images/pocketbone.jpg'
 
 const Contact = () => {
 
-  const fsContact = yup.object().shape({
-    email: yup.string().required('Please enter a valid email.'),
-    message: yup.string().required('Please enter a message.')
-  })
+  // const fsContact = yup.object().shape({
+  //   email: yup.string().required('Please enter a valid email.'),
+  //   message: yup.string().required('Please enter a message.')
+  // })
 
-  const formikContact = useFormik({
-    initialValues: {
-      email: '',
-      message: ''
-    },
-    validationSchema: fsContact,
-    onSubmit: (values) => {
-      alert('penis')
-    }
-  })
+  // const formikContact = useFormik({
+  //   initialValues: {
+  //     email: '',
+  //     message: ''
+  //   },
+  //   validationSchema: fsContact,
+  //   onSubmit: (values) => {
+  //     alert('penis')
+  //   }
+  // })
 
   return (
     <>
@@ -30,7 +30,7 @@ const Contact = () => {
       <NavBar />
       <div className='content'>
         <img 
-          className='image'
+          className='image2'
           src={pocketbone}
           alt='pocket sleeping with bone'
         />

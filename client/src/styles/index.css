@@ -83,7 +83,18 @@ p {
   flex-direction: column;
 }
 
-.image {
+.image1 {
+  width: 220px;
+  height: 220px;
+  margin-top: 1rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #080808;
+  opacity: 85%;
+  align-self: left;
+}
+
+.image2 {
   width: 340px;
   height: 340px;
   margin: 2rem;
@@ -153,8 +164,4 @@ label {
   font-family: "Cedarville Cursive", "cursive";
   color: white;
   margin: auto;
-}
-
-.page {
-  transition: cubic-bezier(1, 0, 0, 1); 
 }
